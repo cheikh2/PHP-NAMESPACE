@@ -1,5 +1,5 @@
 <?php
-namespace model;
+require_once "../conf/autoload.php";
 use model\Manager;
 
 
