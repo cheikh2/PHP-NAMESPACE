@@ -1,0 +1,13 @@
+#..................
+# config
+#..................
+
+# seveur doit suivre les liens symboliques
+Options *followsymlinks
+
+# Activation du module de reecriture d'url
+RewriteEngine On
+
+#..................
+# Reglage de reecriture d'url
+RewriteRule ^client$ Banque/view/FormPhysique.php [l]

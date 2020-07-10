@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgb(7, 126, 61, 0.6);
+    height: 130px;
+    line-height: 90px;
+    margin-top: -40px;
+}
+
+
+.nav label {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 50px;
+    float: right;
+}
+
+.nav input {
+    border: 10px black solid;
+}
+.menu {
+    background-color: rgb(130, 136, 136);
+    margin: 30px 50px 0 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+}
+#toggle {
+    display: none;
+}
+
+@media screen and(max-width:500px) {
+    .nav label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 2px red solid;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
+
+body {
+    /*background-image: url(img/nature.jpg);*/
+    background-color: rgb(150, 144, 144);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.compteform {
+    display: flex;
+    flex-flow: column wrap;
+    width: 800px;
+    background-color: rgb(0, 0, 0, 0.6);
+    margin: 20px auto auto;
+    color: #ffffff;
+    padding: 30px 0 10px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 800px;
+    margin: auto;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+form {
+    padding: 10px;
+}
+
+#name {
+    width: 100%;
+}
+
+.client {
+    background-color: rgba(7, 126, 61, 0.6);
+    margin-left: 110px;
+    margin-top: 0;
+    width: 175px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.prenom {
+    position: relative;
+    left: 100px;
+    top: 24px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 40px;
+    font-size: 16px;
+    color: #555;
+}
+
+.nom {
+    position: relative;
+    left: 100px;
+    top: 45px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 40px;
+    font-size: 16px;
+    color: #555;
+}
+
+
+.adress {
+    position: relative;
+    left: 398px;
+    top: 36;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 40px;
+    font-size: 16px;
+    color: #555;
+}
+
+.email {
+    position: relative;
+    left: 400px;
+    top: -78px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 40px;
+    font-size: 16px;
+    color: #555;
+}
+
+.profession {
+    position: relative;
+    left: 100px;
+    top: -105px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 40px;
+    font-size: 16px;
+    color: #555;
+}
+
+.telephone {
+    position: relative;
+    left: 400px;
+    top: -21px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 40px;
+    font-size: 16px;
+    color: #555;
+}
+
+.cni {
+    position: relative;
+    left: 100px;
+    top: -85px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 40px;
+    font-size: 16px;
+    color: #555;
+}
+
+.clienT {
+    position: relative;
+    color: white;
+    left: 300px;
+}
+
+.idEmployeur {
+    position: relative;
+    left: 166px;
+    top: -32px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 65px;
+    font-size: 16px;
+    height: 32px;
+    color: rgb(0, 0, 0);
+}
+
+.sexe {
+    position: relative;
+    left: 101px;
+    top: 35px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 101px;
+    font-size: 16px;
+    height: 32px;
+    color: rgb(0, 0, 0);
+}
+
+
+.salaire {
+    position: absolute;
+    left: 886px;
+    top: 478px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 40px;
+    font-size: 16px;
+    color: #555;
+}
+
+.butt {
+    position: relative;
+    left: 500px;
+    top: 10px;
+    border-radius: 16px;
+}
+
+.button {
+    position: relative;
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0 0 20px;
+    text-align: center;
+    left: -430px;
+    border-radius: 12px;
+    border: 2px solid #336473;
+    padding: 14px 100px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    top: -150px;
+}
+
+.button:hover {
+    background-color: #5390F5;
+}
+
+.btn {
+    position: relative;
+    background-color: #e6e9e850;
+    display: block;
+    margin: 20px 0 0 20px;
+    top: -160px;
+    border-radius: 12px;
+    border: 2px solid #336473;
+    padding: 14px 100px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    left: -80px;
+}
+
+.btn:hover {
+    background-color: #607407;
+}

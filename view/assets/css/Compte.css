@@ -1,0 +1,222 @@
+
+body {
+    /*background-image: url(img/nature.jpg);*/
+    background-color: rgb(150, 144, 144);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+  }
+  
+  .compteform {
+    display: flex;
+    flex-flow: column wrap;
+    width: 800px;
+    background-color: rgb(0, 0, 0, 0.6);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .main {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 800px;
+    margin: auto;
+  }
+  
+  form {
+    padding: 10px;
+  }
+  
+  #name {
+    width: 100%;
+  }
+  
+  .compte {
+    background-color: rgba(7, 126, 61, 0.6);
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 175px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 200px 10px 200px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .numAgence {
+    position: relative;
+    left: 60px;
+    top: 20px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 50px;
+    font-size: 16px;
+  }
+  
+  .numCompte {
+    position: relative;
+    left: 382px;
+    top: -14px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 50px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .rib {
+    position: relative;
+    left: 380px;
+    top: 15px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 50px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  #frai{
+    position: relative;
+    top: 190px;
+    left: 22px;
+    color: white;
+  }
+  #agio{
+    position: relative;
+    top: 190px;
+    left: 22px;
+    color: white;
+  }
+  
+  #dateDebut{
+    position: relative;
+    left: 60px;
+    top: -5px;
+    line-height: 28px;
+    border-radius: 6px;
+    padding: 0 95px;
+    width: 110px;
+    font-size: 10px;
+  }
+  
+  
+  #dateFin{
+    position: relative;
+    left: 380px;
+    top: -40px;
+    line-height: 28px;
+    border-radius: 6px;
+    padding: 0 95px;
+    width: 110px;
+    font-size: 10px;
+  }
+  
+  
+  .montant{
+    position: relative;
+    left: 60px;
+    top: -70px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 50px;
+    font-size: 16px;
+    color: #555;
+  }
+
+  .clientT{
+    position: relative;
+    left: 380px;
+    top: -147px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 50px;
+    font-size: 6px;
+    color: #555;
+  }
+
+  #typeCompte{
+    position: relative;
+    left: -340px;
+    top: 80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 77px;
+    height: 31px;;
+    font-size: 16px;
+    color: #555;
+  }
+
+  #frai{
+    position: relative;
+    top: 155px;
+    left: 55px;
+    color: white;
+  }
+  #agio{
+    position: relative;
+    top: 165px;
+    left: 55px;
+    color: white;
+  }
+
+  #typeC{
+    position: relative;
+    color: white;
+    left: -150px;
+    top: 53px;
+  }
+
+
+  .butt{
+    position: relative;
+    left: 300px;
+    top: -20px;
+    border-radius: 16px;
+  }
+  
+  .button{
+    position: relative;
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    left: -230px;
+    border-radius: 12px;
+    border: 2px solid #336473;
+    padding: 14px 100px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    top: -10px;
+  }
+  
+  .button:hover {
+    background-color: #5390F5;
+  }
+  
+  .btn {
+    position: relative;
+    background-color: #e6e9e850;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    top: -78px;
+    border-radius: 12px;
+    border: 2px solid #336473;
+    padding: 14px 100px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    left: 60px;
+  }
+  
+  .btn:hover {
+    background-color: #607407;
+  }
