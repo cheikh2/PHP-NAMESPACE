@@ -16,7 +16,7 @@ class ManagerCompte extends Manager
     public function AddCompte(Compte $compte)
     {
         $req = self::InsertUpdate(
-            "INSERT INTO Compte VALUES(?, ?, ?, ?, ?, ?, ?, ?)",
+            "INSERT INTO Compte (idCompte, numAgence, numCompte, rib, montant, dateDebut, dateFin, typeCompte) VALUES(?, ?, ?, ?, ?, ?, ?, ?)",
             array(
                 $compte->getIdCompte(),
                 $compte->getNumAgence(),

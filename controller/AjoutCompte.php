@@ -9,6 +9,7 @@ require_once "../conf/autoload.php";
 
 use model\ManagerCompte;
 use model\Compte;
+use model\Manager;
 
 $manager = new ManagerCompte();
 
